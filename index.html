@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+</head>
+<body>
+<form>
+    <label>
+        <p>Имя: </p>
+        <input type="text" name="firstname" placeholder="Имя">
+    </label>
+    <label>
+        <p>Фамилия: </p>
+        <input type="text" name="lastname" placeholder="Фамилия">
+    </label>
+    <label>
+        <p>Имя: </p>
+        <input type="email" name="email" placeholder="E-Mail">
+    </label>
+    <label>
+        <p>Пароль:</p>
+        <input type="password" name="password" placeholder="Пароль">
+    </label>
+    <label>
+        <p>Пол:</p>
+        <select required name="gender">
+            <option value="">Выберите пол: </option>
+            <option value="m">Женский</option>
+            <option value="f">Мужской</option>
+            <option value="o">Другое</option>
+        </select>
+    </label>
+    <label>
+        <p>Дата рождения:</p>
+        <input required type="date" name="birthday" placeholder="Дата рождения">
+    </label>
+    <label>
+        <p>Согласие с условиями использования: </p>
+        <input type="checkbox" value="1" name="comfirmed">        
+    </label>
+    <div>
+        <p></p>
+        <button>Регистрация</button>
+    </div>
+</form>    
+</body>
+</html>
